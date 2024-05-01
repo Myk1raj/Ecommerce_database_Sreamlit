@@ -5,7 +5,7 @@ import mysql.connector
 
 def create_conn():
     conn = mysql.connector.connect(
-        host="localhost",
+        host="https://dbmssreamlit-6tdjkr5tb2nmtpq8kzvhq6.streamlit.app/",
         user="root",
         password="1141",
         database="dbms"
